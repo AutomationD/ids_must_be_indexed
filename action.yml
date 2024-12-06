@@ -10,6 +10,10 @@ inputs:
     description: 'Enable debug output'
     required: false
     default: '0'
+  schema_file:
+    description: 'Path to schema.rb'
+    required: true
+    default: './db/schema.rb'
 
   schema_file:
       description: 'Path to schema.rb'
